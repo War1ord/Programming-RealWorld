@@ -1,13 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLights.Models", "TrafficLights.Models\TrafficLights.Models.csproj", "{81198309-B6E3-4B85-929F-8768F0F92FCD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{EDCE54EE-64A7-4B4C-B968-70664F73F112}"
 	ProjectSection(SolutionItems) = preProject
 		TrafficLights.Design.ep = TrafficLights.Design.ep
+		TrafficLights.Design.epgz = TrafficLights.Design.epgz
 	EndProjectSection
 EndProject
 Global
@@ -23,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1535706-801E-4B24-A176-E39DB3A74C21}
 	EndGlobalSection
 EndGlobal
